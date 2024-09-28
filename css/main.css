@@ -1,0 +1,166 @@
+/* Box sizing rules */
+* {
+  box-sizing: border-box;
+}
+
+/* Grid container */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Grid columns */
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+/* Grid column widths */
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;}
+
+.login-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid lightgreen;
+      border-radius: 5px;
+  }
+
+  input[type="password"] {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid lightgreen;
+      border-radius: 5px;
+  }
+
+  button[type="submit"] {
+      width: 100%;
+      height: 40px;
+      background-color: #597D35;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;}
+
+  button[type="submit"]:hover {
+      background-color: #3e8e41;
+}
+
+header{
+background-color: lightgreen;
+padding: 10px;
+text-align: center;
+border: 1px solid green;
+border-radius: 10px;
+}
+.top-nav{
+  position: sticky;
+  top: 0px;
+  left:0px;
+  right: 0px;
+  height:100px;
+  color: purple
+}
+
+.top-nav ul{
+  list-style-type: none;
+}
+
+.top-nav li{
+  display: inline;
+}
+
+.top-nav a{
+  text-decoration: none;
+  margin: 50px;
+  float: right;
+}
+
+.top-nav {
+  background-color: lightgreen;
+  padding: 10px;
+  text-align: center;
+  color: navy;s
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li{
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #99EDC3;
+  color: blue;
